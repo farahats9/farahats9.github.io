@@ -59,7 +59,7 @@
       <img class="img-fluid mb-5 d-block mx-auto" src="img/profile2.jpg" alt="" style="border-radius: 50%">
       <h1 class="text-uppercase mb-0">Mohamed Farahat</h1>
       <hr class="star-light">
-      <h2 class="font-weight-light mb-0">Robotics - Engineering - Software Development</h2>
+      <h2 class="font-weight-light mb-0"><i class="fa fa-microchip" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Robotics&nbsp;&nbsp;&nbsp;<i class="fa fa-cogs" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Engineering&nbsp;&nbsp;&nbsp;<i class="fa fa-laptop" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Software Development</h2>
     </div>
   </header>
 
@@ -140,10 +140,10 @@
       <hr class="star-light mb-5">
       <div class="row">
         <div class="col-lg-4 ml-auto">
-          <!-- <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p> -->
+          <p class="lead">I have a bachelor's degree in mechanical engineering but I fell in love with programming. Now I am a freelancer doing jobs that includes robotics and software development.</p>
         </div>
         <div class="col-lg-4 mr-auto">
-          <!-- <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p> -->
+          <p class="lead">My skills include: Matlab, C++, Python, Qt, Flask, Bootstrap, Machine Learning and Automation.</p>
         </div>
       </div>
       <div class="text-center mt-4">
@@ -161,8 +161,8 @@
       <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
       <hr class="star-dark mb-5">
       <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
-      <div class="d-flex justify-content-center">
-        <div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget mx-2' style='display: inline-block;'>
+      <div class="d-flex flex-wrap justify-content-center">
+        <div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget mx-2 mb-2' style='display: inline-block;'>
           <a itemprop='url' href=https://www.fiverr.com/farahats9 rel="nofollow" target="_blank" style='display: inline-block;'>
             <div class='fiverr-seller-content mx-auto' id='fiverr-seller-widget-content-dc04e85d-6d9a-4cc3-902b-7334a654a594' itemprop='contentURL'
               style='display: none;'></div>
@@ -178,18 +178,14 @@
           </a>
         </div>
 
-        <div class="mx-2 card">
-          <div class="card-body" style="min-width:320px">
+        <div class="mx-2 card mb-2">
+          <div class="card-body">
             <a href="https://www.freelancer.com/affiliates/email/4300573/">
               <img src="https://cdn2.f-cdn.com/ppic/57332992/logo/4300573/profile_logo_4300573.jpg" style="float: left; margin-right: 20px; margin-bottom:10px; width:100px; max-height: 100px; border-radius: 5px;">
             </a>
             <div style="min-height:40px;">
               <a style="text-decoration: underline; font-weight: bold;" href="https://www.freelancer.com/affiliates/email/4300573/">Mohamed Farahat</a>
               <p style="margin: 0;margin-bottom: 6px; white-space: nowrap;overflow: hidden">Engineer</p>
-
-              <p style="margin: 0;">
-                <strong>E:</strong> farahat@outlook.com</p>
-
             </div>
             <img src="https://www.freelancer.com/static/css/images/landingpage/hireme-widget-builder/fl-bird-icon.png" style="clear:left;float:left;margin: 10px 0;">
             <a href="https://www.freelancer.com/affiliates/email/4300573/" style="display: block;text-decoration: underline;margin: 10px 0 10px 10px;vertical-align: middle;height: 21px;float: left">Hire me on Freelancer.com</a>
@@ -202,46 +198,51 @@
       <script id='fiverr-seller-widget-script-dc04e85d-6d9a-4cc3-902b-7334a654a594' src='https://widgets.fiverr.com/api/v1/seller/farahats9?widget_id=dc04e85d-6d9a-4cc3-902b-7334a654a594'
         data-config='{"category_name":"Programming \u0026 Tech"}' async='true' defer='true'></script>
 
-      <div class="row">
+      <div class="row mt-5">
         <div class="col-lg-8 mx-auto">
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
           <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+          <form name="sentMessage" id="contactForm" novalidate="novalidate"action="https://formspree.io/farahat@outlook.com" method="POST">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Name</label>
-                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                <input name="name" class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Email Address</label>
-                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                <input name="_replyto" class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Phone Number</label>
-                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                <input name="phone" class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Message</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                <textarea name="message" class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                <!-- <input name="message" class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message."> -->
                 <p class="help-block text-danger"></p>
               </div>
             </div>
-            <br>
+            <br>	
+            <input type="hidden" name="_next" value="/" />
             <div id="success"></div>
             <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+              <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton" value="Send">Send</button>
             </div>
           </form>
+        <!-- <a class="btn btn-primary btn-block" href="mailto:farahat@outlook.com">Email Me</a> -->
+        
         </div>
+        
       </div>
     </div>
   </section>
@@ -274,7 +275,7 @@
                 </a>
               </li> -->
             <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
+              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/farahat9/">
                 <i class="fa fa-fw fa-linkedin"></i>
               </a>
             </li>
@@ -463,7 +464,7 @@
 
   <!-- Contact Form JavaScript -->
   <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+  <!-- <script src="js/contact_me.js"></script> -->
 
   <!-- Custom scripts for this template -->
   <script src="js/freelancer.min.js"></script>
