@@ -1,0 +1,36 @@
+.portfolio-block.block-intro .avatar {
+  width:250px;
+  height:250px;
+}
+
+.gradient {
+  background:linear-gradient(120deg,#150099,#0ea0ff);
+}
+
+.navbar-brand {
+  padding-top:0rem;
+  padding-bottom:0rem;
+}
+
+@media (min-width:576px) {
+  .navbar {
+    padding-top:.6rem;
+    padding-bottom:.6rem;
+  }
+}
+
+.portfolio-navbar .navbar-nav .nav-link {
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.nav-item > .nav-link.active {
+  background-color:#005f88;
+  border-radius:2em;
+  box-shadow:5px 5px 5px rgba(0,0,0,0.25);
+}
+
+.shadow {
+  box-shadow:5px 5px 5px rgba(0,0,0,0.25);
+}
+
